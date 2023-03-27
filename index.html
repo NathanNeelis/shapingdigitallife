@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Podcast - The AI revolution in education</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>The revolution of AI in education</h1>
+    <div class="background">
+      <!-- <img src="images/bg.jpeg" alt="" /> -->
+      <video autoplay loop muted playsinline ">
+        <source src="images/video2.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <div class="wrapper">
+      <h1>
+        <span> <p>The revolution</p> </span>
+        <span>of AI in</span>
+        <span>education</span>
+      </h1>
+
+      <section class="player">
+        <audio controls>
+          <source src="audio/podcast.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <a href="audio/podcast.mp3" download="podcast_the-revolution-of-ai-in-education.mp3" class="downloadbtn">Download podcast</a>
+    </div>
+
+
+    <footer>
+        <p>Made by Nathan Neelis</p>
+        <p>Information Studies • Shaping digital life</p>
+    </footer>
+
+    <!-- SCRIPTS  -->
+    <script src="script.js"></script>
   </body>
 </html>
