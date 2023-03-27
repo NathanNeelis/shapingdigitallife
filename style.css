@@ -86,3 +86,16 @@ footer {
 .downloadbtn:hover {
   text-decoration: underline;
 }
+
+.qr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 35%;
+  z-index: 1000;
+}
+
+.qr img {
+  width: 100%;
+}
